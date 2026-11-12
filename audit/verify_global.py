@@ -1,0 +1,6 @@
+import json,urllib.request,urllib.parse,collections,pathlib,datetime
+base=pathlib.Path('audit');cfg=json.loads(pathlib.Path('public/site-config.json').read_text());
+def get(method,**kw):
+ with urllib.request.urlopen(cfg['apiOrigin']+'/'+method+'?'+urllib.parse.urlencode(dict(code=cfg['shareCode'],**kw)),timeout=60) as r:return json.load(r)
+tree=get('showpublink')['metadata'];f=next(x for x in tree['contents'] if x['name']=='odin-all-avatars.json');manifest=get('getpubtextfile',fileid=f['fileid']);assets={folder['name']+'/'+im['name'] for folder in tree['contents'] if folder.get('isfolder') for im in folder['contents'] if im['name'].lower().endswith(('.png','.jpg','.jpeg','.gif','.webp'))};refs=[urllib.parse.unquote(im['url']) for im in manifest['images']];result=dict(checkedAt=datetime.datetime.now(datetime.timezone.utc).isoformat(),images=len(refs),uniqueReferences=len(set(refs)),actualImages=len(assets),missing=sorted(set(refs)-assets),unreferenced=sorted(assets-set(refs)),duplicateReferences=[x for x,n in collections.Counter(refs).items() if n>1],rootItems=len(tree['contents']));(base/'global-manifest-full-check.json').write_text(json.dumps(result,indent=2));print(json.dumps(result));assert len(refs)==5108 and set(refs)==assets and len(set(refs))==5108
+

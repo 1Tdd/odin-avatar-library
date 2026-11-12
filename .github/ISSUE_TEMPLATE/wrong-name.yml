@@ -1,0 +1,50 @@
+name: Report a wrong or missing name
+description: A picture has the wrong label, or only a description instead of the character's name.
+title: "Wrong name: "
+labels: ["wrong name"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping the library. Requests are read by volunteers, so an answer can take a while.
+        Sent from the website? The fields are already filled in: check them and press **Create**.
+  - type: input
+    id: name
+    attributes:
+      label: Pack or character
+      placeholder: e.g. Attack on Titan, Eren
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Not sure
+        - Crunchyroll
+        - Disney Plus
+        - Netflix
+        - Paramount Plus
+        - PlayStation
+        - Prime Video
+        - Steam
+        - Xbox 360
+        - Xbox One
+        - Other
+  - type: textarea
+    id: details
+    attributes:
+      label: What is wrong
+      description: The current label and the correct name.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Reference
+      description: A link that confirms the correct name, if you have one.
+  - type: input
+    id: version
+    attributes:
+      label: Library version
+      description: Filled in by the website. Leave empty if you are writing here directly.

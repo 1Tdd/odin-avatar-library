@@ -1,0 +1,49 @@
+name: Request a new pack
+description: Ask for a show, a game or a collection that is not in the library yet.
+title: "New pack: "
+labels: ["pack request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping the library. Requests are read by volunteers, so an answer can take a while.
+        Sent from the website? The fields are already filled in: check them and press **Create**.
+  - type: input
+    id: name
+    attributes:
+      label: Show, game or collection
+      placeholder: e.g. Severance
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Where the pictures come from, if you know.
+      options:
+        - Not sure
+        - Crunchyroll
+        - Disney Plus
+        - Netflix
+        - Paramount Plus
+        - PlayStation
+        - Prime Video
+        - Steam
+        - Xbox 360
+        - Xbox One
+        - Other
+  - type: input
+    id: source
+    attributes:
+      label: Where to find the pictures
+      description: A link or a short description of the source.
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything else
+      description: Characters you would like, seasons, style.
+  - type: input
+    id: version
+    attributes:
+      label: Library version
+      description: Filled in by the website. Leave empty if you are writing here directly.

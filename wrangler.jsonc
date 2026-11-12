@@ -1,0 +1,10 @@
+{
+  "name": "odin-avatar-library",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    // /packs is served from packs.html; unknown addresses get 404.html with a real 404 status.
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

@@ -1,0 +1,50 @@
+name: Report a broken image
+description: A picture does not load, is cut, or shows the wrong character.
+title: "Broken image: "
+labels: ["broken image"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping the library. Requests are read by volunteers, so an answer can take a while.
+        Sent from the website? The fields are already filled in: check them and press **Create**.
+  - type: input
+    id: name
+    attributes:
+      label: Pack or character
+      placeholder: e.g. Attack on Titan, Eren
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Not sure
+        - Crunchyroll
+        - Disney Plus
+        - Netflix
+        - Paramount Plus
+        - PlayStation
+        - Prime Video
+        - Steam
+        - Xbox 360
+        - Xbox One
+        - Other
+  - type: textarea
+    id: details
+    attributes:
+      label: What is wrong
+      description: Which picture, and what you see instead. Say whether it happens on the website, in Odin, or both.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Reference
+      description: A link to the pack page or a screenshot, if you have one.
+  - type: input
+    id: version
+    attributes:
+      label: Library version
+      description: Filled in by the website. Leave empty if you are writing here directly.

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Use the request form on the website
+    url: https://avatars.italianodoc.eu/request
+    about: The same request, with a check for packs that already exist.
+  - name: Odin does not connect, or pictures do not load
+    url: https://avatars.italianodoc.eu/help
+    about: Troubleshooting for pCloud, WebDAV and imports. Most problems are solved there.
