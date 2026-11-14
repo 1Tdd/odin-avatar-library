@@ -1,5 +1,29 @@
 [
   {
+    "path": "Apple TV - Emojis/Panda Face.png",
+    "source": "Panda Face",
+    "english": "Panda · 012",
+    "descriptive": true
+  },
+  {
+    "path": "Apple TV - Emojis/Robot Face.png",
+    "source": "Robot Face",
+    "english": "Robot · 026",
+    "descriptive": true
+  },
+  {
+    "path": "Apple TV - Emojis/Detective.png",
+    "source": "Detective",
+    "english": "Detective · 034",
+    "descriptive": true
+  },
+  {
+    "path": "Apple TV - Emojis/Zombie.png",
+    "source": "Zombie",
+    "english": "Zombie · 035",
+    "descriptive": true
+  },
+  {
     "path": "Crunchyroll - Clevatess/Luna.png",
     "source": "Luna",
     "english": "Moon · 006",

@@ -177,7 +177,7 @@ export default function Guide() {
                 </ul>
               </div>
               <ul className="check-list">
-                <li><Icon name="check" size={18} /><span>The complete library has <strong>497 items</strong> in the main folder: 249 JSON files and 248 folders. A selection has fewer.</span></li>
+                <li><Icon name="check" size={18} /><span>The complete library has <strong>505 items</strong> in the main folder: 253 JSON files and 252 folders. A selection has fewer.</span></li>
                 <li><Icon name="check" size={18} /><span>There is no <code>ODIN_PROFILE_AVATARS</code> folder inside <code>ODIN_PROFILE_AVATARS</code>.</span></li>
                 <li><Icon name="check" size={18} /><span>Uploads have finished: a picture and a manifest both open on your storage.</span></li>
                 <li><Icon name="check" size={18} /><span>Nothing was renamed. Filenames, spaces and capitalisation must match the manifest.</span></li>

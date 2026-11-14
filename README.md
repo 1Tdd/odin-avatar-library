@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://avatars.italianodoc.eu"><img src="public/og-image.png" alt="Odin Avatar Library: 248 packs, 5,108 avatars" width="720"></a>
+  <a href="https://avatars.italianodoc.eu"><img src="public/og-image.png" alt="Odin Avatar Library: 252 packs, 5,192 avatars" width="720"></a>
 </p>
 
 <h1 align="center">Odin Avatar Library</h1>
@@ -17,7 +17,7 @@
 
 ## What you get
 
-- **248 packs, 5,108 avatars**, 1,674 of them animated, from ten platforms: Netflix, Crunchyroll, Prime Video, Disney Plus, PlayStation, Steam and more.
+- **252 packs, 5,192 avatars**, 1,674 of them animated, from eleven platforms: Netflix, Crunchyroll, Prime Video, Disney Plus, Apple TV, PlayStation, Steam and more.
 - **Search by character.** Type a name and jump straight to that picture, whichever pack it is in.
 - **Take only what you want.** Collect packs in a selection and download them as one ZIP, already laid out the way Odin expects. Or copy the whole library to your pCloud in one step.
 - **Try before you download.** Put up to five avatars on a preview of Odin's "Who's Watching" screen.

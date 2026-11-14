@@ -1,5 +1,709 @@
 [
  {
+  "folder": "Apple TV - Emojis",
+  "title": "Apple TV - Emojis",
+  "manifest": "pack - Apple TV - Emojis.json",
+  "platform": "Apple TV",
+  "images": [
+   {
+    "name": "Popcorn",
+    "path": "Apple TV - Emojis/Popcorn.png",
+    "bytes": 61792,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Videocassette",
+    "path": "Apple TV - Emojis/Videocassette.png",
+    "bytes": 51180,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Television",
+    "path": "Apple TV - Emojis/Television.png",
+    "bytes": 74481,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Movie Camera",
+    "path": "Apple TV - Emojis/Movie Camera.png",
+    "bytes": 69947,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Film Frames",
+    "path": "Apple TV - Emojis/Film Frames.png",
+    "bytes": 65999,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Clapper Board",
+    "path": "Apple TV - Emojis/Clapper Board.png",
+    "bytes": 58380,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Dog Face",
+    "path": "Apple TV - Emojis/Dog Face.png",
+    "bytes": 60316,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Monkey Face",
+    "path": "Apple TV - Emojis/Monkey Face.png",
+    "bytes": 64859,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Cat Face",
+    "path": "Apple TV - Emojis/Cat Face.png",
+    "bytes": 60212,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Octopus",
+    "path": "Apple TV - Emojis/Octopus.png",
+    "bytes": 61607,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Fox Face",
+    "path": "Apple TV - Emojis/Fox Face.png",
+    "bytes": 61086,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Panda Face",
+    "path": "Apple TV - Emojis/Panda Face.png",
+    "bytes": 58585,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Frog Face",
+    "path": "Apple TV - Emojis/Frog Face.png",
+    "bytes": 65057,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Cow Face",
+    "path": "Apple TV - Emojis/Cow Face.png",
+    "bytes": 65027,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Pig Face",
+    "path": "Apple TV - Emojis/Pig Face.png",
+    "bytes": 61304,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Lion Face",
+    "path": "Apple TV - Emojis/Lion Face.png",
+    "bytes": 81381,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Hamster Face",
+    "path": "Apple TV - Emojis/Hamster Face.png",
+    "bytes": 68696,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Tiger Face",
+    "path": "Apple TV - Emojis/Tiger Face.png",
+    "bytes": 69964,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Chicken",
+    "path": "Apple TV - Emojis/Chicken.png",
+    "bytes": 54313,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Wolf",
+    "path": "Apple TV - Emojis/Wolf.png",
+    "bytes": 53793,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Tropical Fish",
+    "path": "Apple TV - Emojis/Tropical Fish.png",
+    "bytes": 59044,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "T-Rex",
+    "path": "Apple TV - Emojis/T-Rex.png",
+    "bytes": 49660,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Shark",
+    "path": "Apple TV - Emojis/Shark.png",
+    "bytes": 55868,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Woman Fairy",
+    "path": "Apple TV - Emojis/Woman Fairy.png",
+    "bytes": 54641,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Satellite",
+    "path": "Apple TV - Emojis/Satellite.png",
+    "bytes": 62499,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Robot Face",
+    "path": "Apple TV - Emojis/Robot Face.png",
+    "bytes": 56082,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Full Moon",
+    "path": "Apple TV - Emojis/Full Moon.png",
+    "bytes": 68124,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "UFO",
+    "path": "Apple TV - Emojis/UFO.png",
+    "bytes": 41127,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Astronaut",
+    "path": "Apple TV - Emojis/Astronaut.png",
+    "bytes": 72891,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Rocket",
+    "path": "Apple TV - Emojis/Rocket.png",
+    "bytes": 62415,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Crossed Swords",
+    "path": "Apple TV - Emojis/Crossed Swords.png",
+    "bytes": 54578,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Explosion",
+    "path": "Apple TV - Emojis/Explosion.png",
+    "bytes": 51880,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Anchor",
+    "path": "Apple TV - Emojis/Anchor.png",
+    "bytes": 48209,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Detective",
+    "path": "Apple TV - Emojis/Detective.png",
+    "bytes": 65685,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Zombie",
+    "path": "Apple TV - Emojis/Zombie.png",
+    "bytes": 65470,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Military Helmet",
+    "path": "Apple TV - Emojis/Military Helmet.png",
+    "bytes": 57562,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Scales",
+    "path": "Apple TV - Emojis/Scales.png",
+    "bytes": 55632,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Gemstone",
+    "path": "Apple TV - Emojis/Gemstone.png",
+    "bytes": 56170,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Hot Beverage",
+    "path": "Apple TV - Emojis/Hot Beverage.png",
+    "bytes": 58101,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Crown",
+    "path": "Apple TV - Emojis/Crown.png",
+    "bytes": 60442,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Heart with Arrow",
+    "path": "Apple TV - Emojis/Heart with Arrow.png",
+    "bytes": 53891,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Rose",
+    "path": "Apple TV - Emojis/Rose.png",
+    "bytes": 55409,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Basketball",
+    "path": "Apple TV - Emojis/Basketball.png",
+    "bytes": 79593,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "American Football",
+    "path": "Apple TV - Emojis/American Football.png",
+    "bytes": 78506,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Tennis Ball",
+    "path": "Apple TV - Emojis/Tennis Ball.png",
+    "bytes": 70431,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Soccer Ball",
+    "path": "Apple TV - Emojis/Soccer Ball.png",
+    "bytes": 50351,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Volleyball",
+    "path": "Apple TV - Emojis/Volleyball.png",
+    "bytes": 51102,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Baseball",
+    "path": "Apple TV - Emojis/Baseball.png",
+    "bytes": 66707,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Herb",
+    "path": "Apple TV - Emojis/Herb.png",
+    "bytes": 57754,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Sunflower",
+    "path": "Apple TV - Emojis/Sunflower.png",
+    "bytes": 64273,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Leaves Fluttering in Wind",
+    "path": "Apple TV - Emojis/Leaves Fluttering in Wind.png",
+    "bytes": 56844,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Maple Leaf",
+    "path": "Apple TV - Emojis/Maple Leaf.png",
+    "bytes": 59266,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Seashell",
+    "path": "Apple TV - Emojis/Seashell.png",
+    "bytes": 66822,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Ear of Rice",
+    "path": "Apple TV - Emojis/Ear of Rice.png",
+    "bytes": 59267,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Drum",
+    "path": "Apple TV - Emojis/Drum.png",
+    "bytes": 58899,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Microphone",
+    "path": "Apple TV - Emojis/Microphone.png",
+    "bytes": 55015,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Musical Keyboard",
+    "path": "Apple TV - Emojis/Musical Keyboard.png",
+    "bytes": 46582,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Trumpet",
+    "path": "Apple TV - Emojis/Trumpet.png",
+    "bytes": 59322,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Mirror Ball",
+    "path": "Apple TV - Emojis/Mirror Ball.png",
+    "bytes": 64859,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Guitar",
+    "path": "Apple TV - Emojis/Guitar.png",
+    "bytes": 52288,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Cowboy Face",
+    "path": "Apple TV - Emojis/Cowboy Face.png",
+    "bytes": 63870,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Face with Tears of Joy",
+    "path": "Apple TV - Emojis/Face with Tears of Joy.png",
+    "bytes": 65429,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Disguised Face",
+    "path": "Apple TV - Emojis/Disguised Face.png",
+    "bytes": 66504,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Winking Face with Stuck-Out Tongue",
+    "path": "Apple TV - Emojis/Winking Face with Stuck-Out Tongue.png",
+    "bytes": 64165,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Smiling Face Holding Back Tears",
+    "path": "Apple TV - Emojis/Smiling Face Holding Back Tears.png",
+    "bytes": 62635,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Upside Down Face",
+    "path": "Apple TV - Emojis/Upside Down Face.png",
+    "bytes": 58799,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   }
+  ]
+ },
+ {
+  "folder": "Apple TV - Frog and Toad",
+  "title": "Apple TV - Frog and Toad",
+  "manifest": "pack - Apple TV - Frog and Toad.json",
+  "platform": "Apple TV",
+  "images": [
+   {
+    "name": "Frog",
+    "path": "Apple TV - Frog and Toad/Frog.png",
+    "bytes": 82618,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Toad",
+    "path": "Apple TV - Frog and Toad/Toad.png",
+    "bytes": 92360,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Turtle",
+    "path": "Apple TV - Frog and Toad/Turtle.png",
+    "bytes": 103862,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Raccoon",
+    "path": "Apple TV - Frog and Toad/Raccoon.png",
+    "bytes": 81006,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Rabbit",
+    "path": "Apple TV - Frog and Toad/Rabbit.png",
+    "bytes": 89124,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Mouse",
+    "path": "Apple TV - Frog and Toad/Mouse.png",
+    "bytes": 82860,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Mink",
+    "path": "Apple TV - Frog and Toad/Mink.png",
+    "bytes": 94368,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   }
+  ]
+ },
+ {
+  "folder": "Apple TV - Stillwater",
+  "title": "Apple TV - Stillwater",
+  "manifest": "pack - Apple TV - Stillwater.json",
+  "platform": "Apple TV",
+  "images": [
+   {
+    "name": "Stillwater",
+    "path": "Apple TV - Stillwater/Stillwater.png",
+    "bytes": 137844,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Addy",
+    "path": "Apple TV - Stillwater/Addy.png",
+    "bytes": 113239,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Michael",
+    "path": "Apple TV - Stillwater/Michael.png",
+    "bytes": 106459,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Karl",
+    "path": "Apple TV - Stillwater/Karl.png",
+    "bytes": 121037,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   }
+  ]
+ },
+ {
+  "folder": "Apple TV - The Snoopy Show",
+  "title": "Apple TV - The Snoopy Show",
+  "manifest": "pack - Apple TV - The Snoopy Show.json",
+  "platform": "Apple TV",
+  "images": [
+   {
+    "name": "Snoopy",
+    "path": "Apple TV - The Snoopy Show/Snoopy.png",
+    "bytes": 70440,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Woodstock",
+    "path": "Apple TV - The Snoopy Show/Woodstock.png",
+    "bytes": 87995,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Charlie Brown",
+    "path": "Apple TV - The Snoopy Show/Charlie Brown.png",
+    "bytes": 76980,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Lucy",
+    "path": "Apple TV - The Snoopy Show/Lucy.png",
+    "bytes": 77338,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Franklin",
+    "path": "Apple TV - The Snoopy Show/Franklin.png",
+    "bytes": 79205,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Sally",
+    "path": "Apple TV - The Snoopy Show/Sally.png",
+    "bytes": 91116,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   },
+   {
+    "name": "Peppermint Patty",
+    "path": "Apple TV - The Snoopy Show/Peppermint Patty.png",
+    "bytes": 99488,
+    "width": 320,
+    "height": 320,
+    "animated": false
+   }
+  ]
+ },
+ {
   "folder": "Crunchyroll - Attack on Titan",
   "title": "Crunchyroll - Attack on Titan",
   "manifest": "pack - Crunchyroll - Attack on Titan.json",

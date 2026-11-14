@@ -21,6 +21,7 @@ body:
       label: Platform
       options:
         - Not sure
+        - Apple TV
         - Crunchyroll
         - Disney Plus
         - Netflix

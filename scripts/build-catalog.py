@@ -66,8 +66,8 @@ for p in source:
  summary=dict(id=pid,title=title,folder=folder,folderId=rf['folderid'],platform=p['platform'],universe=universe,franchises=sorted(set(franchises)),count=len(images),animated=sum(x['animated'] for x in images),bytes=sum(x['bytes'] for x in images),manifest=p['manifest'],manifestId=files[p['manifest']]['fileid'],manifestBytes=files[p['manifest']]['size'],preview=images[:3])
  pack_summaries.append(summary)
  (out/'packs'/f'{pid}.json').write_text(json.dumps(dict(**summary,images=images),ensure_ascii=False,separators=(',',':')),encoding='utf8')
-assert len(pack_summaries)==248 and len(all_images)==5108
-summary=dict(version=TODAY.strftime('%Y.%m.%d'),auditedAt=TODAY.isoformat(),packCount=248,imageCount=5108,animatedCount=sum(x['animated'] for x in all_images),imageBytes=sum(x['bytes'] for x in all_images),rootFolderId=remote['folderid'],globalManifestId=files['odin-all-avatars.json']['fileid'],globalManifestBytes=files['odin-all-avatars.json']['size'],packs=pack_summaries)
+assert len(pack_summaries)==len(source) and len({x['id'] for x in all_images})==len(all_images)
+summary=dict(version=TODAY.strftime('%Y.%m.%d'),auditedAt=TODAY.isoformat(),packCount=len(pack_summaries),imageCount=len(all_images),animatedCount=sum(x['animated'] for x in all_images),imageBytes=sum(x['bytes'] for x in all_images),rootFolderId=remote['folderid'],globalManifestId=files['odin-all-avatars.json']['fileid'],globalManifestBytes=files['odin-all-avatars.json']['size'],packs=pack_summaries)
 (out/'catalog.json').write_text(json.dumps(summary,ensure_ascii=False,separators=(',',':')),encoding='utf8')
 (out/'search.json').write_text(json.dumps(search,ensure_ascii=False,separators=(',',':')),encoding='utf8')
 (ROOT/'audit/english-label-review.json').write_text(json.dumps(translation_review,ensure_ascii=False,indent=2),encoding='utf8')
@@ -79,4 +79,4 @@ if previous.exists():
 audit=ROOT/'audit/pcloud-download-audit.json'
 if audit.exists():config['downloadAudit']=json.loads(audit.read_text('utf8'))
 (ROOT/'public/site-config.json').write_text(json.dumps(config,indent=2),encoding='utf8')
-print('Catalog built: 248 packs / 5108 images; only metadata in public/data.')
+print(f'Catalog built: {len(pack_summaries)} packs / {len(all_images)} images; only metadata in public/data.')

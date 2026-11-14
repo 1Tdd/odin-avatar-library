@@ -22,6 +22,7 @@ body:
       description: Where the pictures come from, if you know.
       options:
         - Not sure
+        - Apple TV
         - Crunchyroll
         - Disney Plus
         - Netflix
