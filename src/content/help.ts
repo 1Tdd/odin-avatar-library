@@ -13,7 +13,7 @@ export const issues=[
 ];
 export const faqs=[
 ['Does a metadata-only update include images?','No. It contains names and references, usually JSON and CSV files. Existing matching image files are still required.'],
-['Can one JSON install 252 separate packs?','A multipack file is not a supported installation method for this library. Import the working separate manifests individually. The global manifest creates one combined pack.'],
+['Can one JSON install 264 separate packs?','A multipack file is not a supported installation method for this library. Import the working separate manifests individually. The global manifest creates one combined pack.'],
 ['Why is every pack JSON there twice?','Each manifest is in the main folder, where Odin lists them above the image folders, and again inside its own image folder. They are the same pack and Odin can add it from either copy. Add it only once, or its avatars appear twice.'],
 ['What is the difference between a filename and a display name?','The filename identifies the actual image on storage. The JSON name field is the label shown by Odin. The JSON URL field locates the image. Renaming a file requires changing the URL; changing only the display name does not.'],
 ['Does Add to pCloud install anything in Odin?','No. It opens the shared library. Saving requires action on pCloud, possibly sign-in. Import the desired manifests inside Odin afterwards.'],
